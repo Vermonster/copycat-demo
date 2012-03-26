@@ -1,0 +1,2 @@
+COPYCAT_USERNAME = "copycat"
+COPYCAT_PASSWORD = "password"
