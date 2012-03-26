@@ -1,5 +1,6 @@
 CopycatDemo::Application.routes.draw do
-  root to: 'site#index'
+  get '/', :to => 'site#index'
+  post '/', :to => 'site#reset'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
